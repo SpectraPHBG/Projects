@@ -54,6 +54,7 @@ public class JobAssignment{
                 continue;
             }
         }while (isOdd==false);
+        System.out.println("N = "+size);
         MDrawing mShape= new MDrawing(size);
         mShape.Draw();
         scanner.close();
